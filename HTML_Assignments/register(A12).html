@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <hr>
+    <h1>CodingGita Student Resigtration Form</h1>
+    <p>Please fill out the form below to register for the CodingGita MERN Stack Program.</p>
+    <hr>
+    
+    <form method="post" action="#">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+        <label for="name">Full Name :</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+
+        <label for="mail">Email :</label>
+        <input type="email" id="mail">
+        <br>
+        <br>
+
+        <label for="pass">Password :</label>
+        <input type="password" id="pass">
+        <br>
+        <br>
+
+        <label for="no">Mobile Number :</label>
+        <input type="number" id="no">
+        <br>
+        <br>
+
+        Gender: 
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Female</label>
+
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Male</label>
+
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Other</label>
+        <br>
+        <br>
+        </fieldset>
+
+        <br>
+
+        Hobbies:
+        <input type="checkbox" id="book">
+        <label for="book">Reading</label>
+
+        <input type="checkbox" id="code">
+        <label for="code">Coding</label>
+
+        <input type="checkbox" id="sports">
+        <label for="sports">Sports</label>
+
+        <input type="checkbox" id="music">
+        <label for="music">Music</label>
+        <br>
+        <br>
+
+        Date of Birth:
+        <input type="date"  min="2022-01-01" max="2025-12-31">
+        <br>
+        <br>
+
+        Upload Photo:
+        <input type="file" name="images" accept="image/*">
+        <br>
+        <br>
+
+        Course Selection:
+        <select>
+            <option>MERN Stack</option>
+            <option>DSA</option>
+            <option>Web Development</option>
+        </select>
+        <br>
+        <br>
+
+        Address:<br>
+        <textarea rows="5" cols="40" placeholder="enter your address"></textarea>
+        <br>
+        <br>
+
+        Preferred Study Hours: 
+        <input type="range" min="2" max="14" value="4" oninput="output.value = this.value">
+        <output name="output">4</output>
+        <br>
+        <br>
+
+        Favorite Color:
+        <input type="color">
+        <br>
+        <br>
+
+        Portfolio Website:
+        <input type="url">
+        <br>
+        <br>
+
+        Search Interests:
+        <input type="search" name="search">
+        <br>
+        <br>
+
+        Preferred Study Time:
+        <input type="time">
+        <br>
+        <br>
+        <hr>
+        <input type="submit">
+        <input type="reset">
+        <hr>
+
+
+
+
+    </form>
+</body>
+</html>
