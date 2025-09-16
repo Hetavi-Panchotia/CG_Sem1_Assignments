@@ -1,0 +1,57 @@
+body{
+    font-family: Roboto , sans-serif;
+    background-color: rgb(189, 188, 188);
+    color: #222;
+}
+
+.card{
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 140px;
+    background-color: rgb(26, 61, 53);
+    color: white;
+}
+
+.card.solid{
+    background-color: #3094ec;
+    border-radius: 2%;
+    padding: 10px;
+}
+
+.cta{
+    /* background-color: rgb(113, 69, 53); */
+    color: yellow;
+}
+
+/* .card.linear{}
+
+.card.radial{} */
+
+.bg-demo{
+    background-image: url("./cat.jpeg");
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: contain;
+}
+
+.compare-cover{
+    height: 100px;
+    width: 400px;
+    background-image: url("./cat.jpeg");
+    background-size: cover;
+}
+
+.compare-contain{
+    height: 100px;
+    width: 400px;
+    background-image: url("./cat.jpeg");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+.parallax{
+    background-image: url("./cat.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 275px;
+}

@@ -1,0 +1,59 @@
+p{
+    font-size: 20px;
+    line-height: normal;
+}
+
+#site-title{
+    background-color: aquamarine;
+    color: blue;
+    padding: 15px;
+}
+
+.muted{
+    color: rgb(80, 79, 79);
+}
+
+.highlight{
+    border: 1px dashed black;
+    background-color: antiquewhite;
+}
+
+.highlight-text{
+    background-color: rgb(172, 226, 255);
+}
+
+#override{
+    background-color: rgb(255, 255, 79);
+}
+
+.ita{
+    font-style: italic;
+}
+
+.h_p{
+    color: rgb(80, 79, 79);
+    font-style: italic;
+}
+
+.cs{
+    text-transform: uppercase;
+    font-size: small;
+}
+
+h1,h2,h3{
+    margin-bottom: 15px;
+}
+
+.odd{
+    background-color: rgb(80, 79, 79);
+}
+
+.even{
+    background-color: white;
+}
+
+.alt{
+    border: 2px solid black;
+    padding: 20px;
+
+}

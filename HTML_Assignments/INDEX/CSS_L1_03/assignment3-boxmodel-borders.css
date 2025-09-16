@@ -1,0 +1,45 @@
+*{
+    font-family: Roboto , sans-serif;
+    box-sizing: border-box;
+    background-color: #f7f9fc;
+    color: #222;
+}
+
+.note{
+    color: gray;
+    font-size: small;
+}
+
+.box{
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.box.box1{
+    border: 3px solid #1e88e5;
+    padding: 12px;
+}
+
+.box.box2{
+    border: 4px dotted #4caf50;
+    padding: 20px;
+}
+
+.box.box3{
+    border: 2px dashed #f57c00;
+    border-radius: 12px;
+    margin: 8px 0 24px 12px;
+}
+
+.center-auto{
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.outline-button{
+    border: 2px dashed black;
+    padding: 10px;
+}
