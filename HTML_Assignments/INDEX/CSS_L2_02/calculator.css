@@ -1,0 +1,56 @@
+.main{
+    background-color: black;
+    color: white;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.num{
+    border-radius: 75px;
+    background-color: gray;
+    margin: 15px;
+    width: 50px;
+    text-align: center;
+}
+
+.num2{
+    display: flex;
+    margin-left: 35px;
+}
+
+#orange{
+    background-color: orange;
+    border-radius: 75px;
+    width: 50px;
+    text-align: center;
+    margin-left: 35px;
+    margin: 15px;
+}
+
+#zero{
+    background-color: gray;
+    border-radius: 75px;
+    width: 132px;
+    text-align: center;
+    margin-left: 35px;
+    margin: 15px;
+}
+
+.output{
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    margin-left: 233px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+#three{
+    background-color: rgb(167, 203, 210);
+    border-radius: 75px;
+    margin: 15px;
+    width: 50px;
+    text-align: center;
+}

@@ -19,5 +19,22 @@ int main(){
         }
         printf("\n");
     }
+    for (int i=1 ; i<=n-1 ; i++){
+        printf(" ");
+        for (int j= 1; j<=n-1 ; j++){
+            if (i<= j){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        for( int j=1; j<=n-2 ; j++){
+            if (j>=i){
+                printf("*");
+            }
+        }
+     printf("\n");
+}
     return 0;
 }
