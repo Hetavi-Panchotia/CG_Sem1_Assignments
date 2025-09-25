@@ -1,0 +1,90 @@
+.red{
+    border: 40px solid red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rc{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    border: red 5px solid;
+    margin: 20px;
+}
+
+.green{
+    border: 40px solid green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gc{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    border: green 5px solid;
+    margin: 20px;
+}
+
+.ludo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    /* border: 1px solid burlywood; */
+}
+
+.box{
+    border: 1px solid black;
+    width: 45px;
+    height: 45px;
+}
+
+.rag{
+    display: flex;
+    flex-wrap: wrap;
+    width: 142px;
+}
+
+.blue{
+    border: 40px solid blue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bc{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    border: blue 5px solid;
+    margin: 20px;
+}
+
+.rab{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 282px;
+}
+
+.yc{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    border: yellow 5px solid;
+    margin: 20px;
+}
+
+.yellow{
+    border: 40px solid yellow;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+

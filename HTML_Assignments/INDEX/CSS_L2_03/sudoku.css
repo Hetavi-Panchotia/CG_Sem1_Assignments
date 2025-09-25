@@ -1,10 +1,38 @@
-.title{
-    display: flex;
-    justify-content: space-around;
-    font-size: 35px;
+.sutable{
+/* border: 2px solid black;  */
+height: 422px; 
+width: 420px;
 }
 
-.tables{
+.row{
+/* border: 1px solid black; */
+width: 423px;
+height: 140px;
 display: flex;
-justify-content: space-around;
+/* flex-wrap: wrap; */
+}
+
+.rowblock{
+    border: 1px solid black;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#funrowblock{
+    border: 1px solid black;
+    height: 140px;
+    width: 140px;
+    background-color: rgb(156, 235, 209);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ele{
+    border: 0.2px solid black;
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    font-size: 35px;
 }

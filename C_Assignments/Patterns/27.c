@@ -1,26 +1,50 @@
-#include <stdio.h>
-int main(){
-    int n,c=1;
-    scanf("%d",&n);
+// #include <stdio.h>
+// int main(){
+//     int n,c=1;
+//     scanf("%d",&n);
 
-    for (int i=1 ; i<=n ; i++){
-        for (int j= 1; j<=n ; j++){
-            if (i<= j){
-                printf("%d",c);
-                c++;
-            }
-            else{
-                printf(" ");
-            }
+//     for (int i=1 ; i<=n ; i++){
+//         for (int j= 1; j<=n ; j++){
+//             if (i<= j){
+//                 printf("%d",c);
+//                 c++;
+//             }
+//             else{
+//                 printf(" ");
+//             }
+//         }
+//         for( int j=1; j<=n-1 ; j++){
+//             if (j>=i){
+//                 printf("%d",c);
+//                 c++;
+//             }
+//         }
+//      printf("\n");
+//      c=1;
+// }
+//     return 0;
+// }
+
+
+#include <stdio.h>
+int main (){
+
+    int n;
+    scanf("%d",&n);
+    int i=n;
+    while( i >=1){
+        int j=0;
+        while (j<= n-i){
+        printf(" ");
+        j++;
         }
-        for( int j=1; j<=n-1 ; j++){
-            if (j>=i){
-                printf("%d",c);
-                c++;
-            }
+        j=1;
+        while (j <= (2*i-1)){
+            printf("%d",j);
+            j++;
         }
-     printf("\n");
-     c=1;
-}
+        printf("\n");
+        i--;
+    }
     return 0;
 }
