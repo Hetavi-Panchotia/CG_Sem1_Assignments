@@ -1,0 +1,81 @@
+        .container {
+            height: 750px;
+            width: 1100px;
+            border: 1px solid black;
+            background-image: url(https://github.com/codinggita/CGxSU_Semester_1/blob/main/html_css_js/CSS/00.assignment/02.level_2/06.cricket_app/backgroud.png?raw=true);
+            background-size: contain;
+            background-position: 40px 100px;
+            background-repeat: no-repeat;
+            background-size: 1100px 700px;
+            /* display: flex; */
+            justify-content: flex-end;
+        }
+
+        img {
+            position: relative;
+            right: 300px;
+            
+        }
+
+        .logo {
+            position: relative;
+        
+            
+        }
+
+        .icc {
+            
+            position: relative;
+            left:50px;
+            top:30px;
+            font-size: 40px;
+            font-weight: bolder;
+            
+        }
+
+        .icc p {
+            font-size: 25px;
+            position: relative;
+            bottom: 25px;
+            
+        }
+
+        table {
+            height: 517px;
+            width: 700px;
+            border: 2px solid black;
+            position: relative;
+            top: 10px;
+            left:50px;
+            display: flex;
+            background-color: white;
+            border-collapse: collapse;
+
+        }
+
+        .line {
+            border: 1px solid black;
+            padding: 20px;
+            margin: auto;
+            background-color: rgb(227, 227, 227)
+        }
+
+        td {
+            border-bottom: 2px solid black;
+            padding: 11px 21px;
+        }
+
+        .blue {
+            color: blue;
+        }
+        .grey{
+            color: grey;
+        }
+        #red{
+            width:690px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #red div{
+            margin-left: 8px;
+        }

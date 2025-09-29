@@ -1,0 +1,53 @@
+.bg{
+    background-image: url("./kw-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.heading{
+    font-size: 40px;
+    color: white;
+    line-height: 60px;
+    margin-left: 100px;
+}
+
+.rowhead{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    margin-left: 80px;
+}
+
+.content{
+    width: 140px;
+    height: 250px;
+    align-items: center;
+}
+
+.name{
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.about{
+    font-size: small;
+    color: gray;
+}
+
+.price{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.atc{
+    background-color: rgb(70, 149, 233);
+    color: white;
+    width: 35px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}

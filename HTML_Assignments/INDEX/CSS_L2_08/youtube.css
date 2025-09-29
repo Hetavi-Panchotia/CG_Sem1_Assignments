@@ -1,0 +1,60 @@
+.sidebar{
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 670px;
+    background-color: rgb(34, 27, 27);
+    border-right: 1px solid white;
+}
+
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(34, 27, 27);
+    border-bottom: 1px solid white;
+}
+
+.subnav{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(34, 27, 27);
+    border-bottom: 1px solid white;
+}
+
+.mainpanel{
+    height: 670px;
+    width: 855px;
+    background-color: black;
+    /* border: 3px solid red; */
+}
+
+.content{
+    display: flex;
+    padding: 25px;
+    /* border: 3px solid red; */
+    margin-top: 10px;
+}
+
+.video{
+    /* border: 1px solid white; */
+    width: 250px;
+    height: 235px;
+    margin-left: 20px;
+}
+
+.section1{
+    /* border: 1px solid white; */
+    color: white;
+    padding-top: 10px;
+    border-bottom: 0.3px solid gray;
+}
+
+.section2{
+    /* border: 1px solid white; */
+    color: white;
+    border-bottom: 0.3px solid gray;
+}
+
+.section3{
+    /* border: 1px solid white; */
+    color: white;
+}
