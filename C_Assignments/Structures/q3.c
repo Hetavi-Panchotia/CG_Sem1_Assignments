@@ -3,14 +3,14 @@
 struct date
 {
     int day;
-    char* month;
+    char month[12];
     int year;
 };
 
 struct employee
 {
-    char* id;
-    char* name;
+    char id[10];
+    char name[30];
     struct date d1;
 };
 
@@ -18,11 +18,11 @@ int main() {
     
     struct employee e1;
 
-    e1.id = "VET008";
-    e1.name = "Knox Overstreet" ;
-    e1.d1.day = 23;
-    e1.d1.month = "June" ;
-    e1.d1.year = 2018 ;
+    scanf("%s",e1.id);
+    scanf("%s",e1.name);
+    scanf("%d",&e1.d1.day);
+    scanf("%s",e1.d1.month);
+    scanf("%d",&e1.d1.year);
 
     printf("Employee ID is %s\n",e1.id);
     printf("Name of the employee is %s\n",e1.name);
