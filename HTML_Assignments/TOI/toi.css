@@ -128,3 +128,7 @@
     display: flex;
     justify-content: center;
 }
+
+.socials div{
+    width: 2vw;
+}
